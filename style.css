@@ -15,7 +15,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -44,6 +43,10 @@ table {
 }
 /*====================================================================*/
 
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/Roboto/Roboto-Italic.ttf);
+}
 body {
     background: url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -54,3 +57,37 @@ body {
     font-family: 'Roboto', sans-serif;
     color: antiquewhite;
 }
+
+#reg_form {
+	max-width: 80%;
+	border: 5px solid black;
+	padding: 10px;
+    align-content: center;
+	max-height: 100%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 30%;
+    margin: -10% 0 0 -40%;
+    text-align: center;
+}
+input {
+	background: transparent;
+	border: 3px solid black;
+	max-width: 100%;
+	width: 70%;
+	font-size: 120%;
+	font-family: 'Roboto';
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	color: black;
+	font-family: 'Roboto';
+	font-size: 200%;
+	text-align:left;
+	margin-left: 15%;
+}
+
+
