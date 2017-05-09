@@ -150,4 +150,15 @@ div.sign p {
 	font-size: 
 }
 
+a {
+    text-decoration: none;
+    color: beige;
+    font-size: 120%;
+}
+.sign {
+    position: absolute;
+    left: 67%;
+    top: 25%;
+}
+
 http://dbmast.ru/plavnoe-podchyorkivanie-ssylki-pri-navedenii
